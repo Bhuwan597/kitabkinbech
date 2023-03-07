@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitabKinBech.com - Buy and Sell second hand books.</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gray-200">
+    <header class="absolute top-0">
+        <div class="navbar_top z-[1000]">
+            <div class="navbar-container">
+                <div class="left">
+                    <span class="logo">KitabKinBech<span class="sub-logo">.com</span></span>
+                </div>
+                <div class="right">
+                    <div class="search-box">
+                        <form action="/search" method="get">
+                            <input type="search" name="query" id="query" required
+                                placeholder="Search Books . . . . . . . . . . ."
+                                aria-placeholder="Search Books . . . . .">
+                            <button type="submit" class="search-btn"><i
+                                    class='bx bx-sm bx-search-alt-2'></i></i></button>
+                        </form>
+                    </div>
+                    <div class="buttons">
+                        <a href="/login" class="login-btn">Login <i class='bx bx-sm bxs-user-circle'></i></a>
+                    </div>
+                </div>
+                <span id="menu"><i class='bx bx-menu'></i></span>
+            </div>
+        </div>
+    </header>
+    <section class="body-container flex realtive mt-[100px] flex-col-reverse lg:flex-row lg:justify-between p-2 gap-8">
+        <div class="book-section w-full lg:w-[70%] shadow-2xl rounded bg-white p-4">
+            <div>
+                <h3
+                    class="text-2xl block bord border-b-4 border-indigo-500 p-4 flex justify-start items-center gap-2 font-bold">
+                    <i class='bx bx-sm bxs-book-alt'></i>Books Available
+                </h3>
+                <div class="book-items flex md:flex-row items-center flex-col justify-start md:justify-between md:flex-wrap lg:justify-between lg:flex-wrap gap-2 mt-8">
+
+
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+                    
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+                    <div class="book flex flex-col w-[100%] md:w-[45%] p-4 shadow-2xl rounded">
+                        <a href="#" class="flex flex-col gap-4">
+                            <div class="flex-row flex gap-4 items-center">
+                            <img class="w-[35%] h-[100%] rounded" src="https://heritagebooks.com.np/wp-content/uploads/2021/09/Basic-Mathematics-12-perfect.png" alt="Basic-Mathematics-12-perfect" loading="lazy">
+                            <div class="title_description"><span class="font-bold hover:underline text-xl">Basic Mathematics Class 12 (NEB)</span>
+                            <span class="block mt-4 text-gray-500 font-bold text-sm">Class 12 Basic Mathematics Best Book only.</span>
+                            <div class="price_location flex flex-col justify-start mt-4 gap-2">
+                                <div class="discount text-xs"><span class="bg-blue-500 text-white px-4 py-2 mr-2">10% off </span> <p class="inline my-3">Bhuwan Stores</p> </div>
+                                <div class="actual-price flex flex-row justify-between items-center"><span class="font-bold text-2xl">Rs. 1000</span> <del>Rs. 1200</del></div>
+                                <div class="loation_button">
+                                    <p>Location: <span class="font-semibold">Kathmandu</span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="buy-btn w-[100%]">
+                                <a class="block text-center rounded-xl p-3 mt-3 font-bold bg-yellow-400 hover:bg-yellow-500 flex justify-center items-center gap-6" href="#">Buy this Book <i class='bx bx-sm bxs-shopping-bag'></i></a>
+                            </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div id="sidebar" class="w-full lg:w-[30%] shadow-2xl rounded flex flex-col gap-8">
+            <div class=" lg:sticky lg:top-20  bg-white">
+                <div class="labels flex flex-col gap-4 p-8 mb-8 bg-white " class="sidebar-items">
+                    <h3
+                        class="text-2xl block bord border-b-4 border-indigo-500 p-4 flex justify-start items-center gap-2 font-bold">
+                        <i class='bx bx-sm bxs-label'></i> Labels
+                    </h3>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Text Books</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Reference Books</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Guide and Guess Papers</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Handwritten Notes</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Courses</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Religious Books</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Motivational Books</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                    <div
+                        class="label-items bg-blue-500 p-2 rounded-xl text-lg flex justify-between items-center hover:bg-blue-600">
+                        <a class="flex justify-between items-center text-white font-semibold" href="#"><i
+                                class='bx bx-sm bx-chevrons-right'></i>Other Books</a> <span
+                            class="text-yellow-white bg-yellow-400 px-2 rounded-xl font-bold">16</span>
+                    </div>
+                </div>
+                <div class="labels flex flex-col justify-between item gap-4 px-8 mb-8 bg-white" class="sidebar-items">
+                    <h3
+                    class="text-2xl block bord border-b-4 border-indigo-500 px-4 flex justify-start items-center gap-2 font-bold">
+                    <i class='bx bx-sm bx-link'></i> Social Handles
+                    </h3>
+                    <div class="flex justify-between gap-8 items-center">
+                        <a class="flex justify-center items-center p-3 gap-3 bg-blue-600 hover:bg-blue-700 text-white text-lg rounded text-center" href="#"><i class='bx bx-sm bxl-facebook-circle'></i> Facebook</a>
+                        <a class="flex justify-center items-center p-3 gap-3 bg-red-500 hover:bg-red-700 text-white text-lg rounded text-center" href="#"><i class='bx bx-sm bxl-instagram-alt' ></i> Instagram</a>
+                    </div>
+                    <div class="flex justify-between gap-8 items-center">
+                        <a class="flex justify-center items-center p-3 gap-3 bg-sky-600 hover:bg-sky-700 text-white text-lg rounded text-center" href="#"><i class='bx bx-sm bxl-twitter'></i> Twitter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a class="flex justify-center items-center p-3 gap-3 bg-green-500 hover:bg-green-600 text-white text-lg rounded text-center" href="#"><i class='bx bx-sm bxl-whatsapp' ></i> Whatsapp&nbsp;</a>
+                    </div>
+                    <div class="flex justify-between gap-8 items-center">
+                        <a class="flex justify-center items-center p-3 gap-3 bg-[#b91c1c] hover:bg-red-500 text-white text-lg rounded text-center" href="#"><i class='bx bx-sm bxl-gmail'></i> Gmail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a class="flex justify-center items-center p-3 gap-3 bg-pink-700 hover:bg-pink-800 text-white text-lg rounded text-center" href="#"><i class='bx bx-sm bxl-pinterest' ></i> Pinterest&nbsp;&nbsp;&nbsp;</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="./js/index.js">
+    </script>
+</body>
+
+</html>
