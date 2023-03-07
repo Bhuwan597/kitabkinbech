@@ -33,7 +33,7 @@ header .navbar_top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.6em;
+    padding: 1em;
 }
 .navbar_top .navbar-container .left span.logo{
     color: var(--white);
