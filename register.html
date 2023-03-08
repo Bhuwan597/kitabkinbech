@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitabKinBech.com - Register</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body class="flex min-h-[100vh] flex-col justify-center items-center">
+    <div class="login flex flex-col justify-center items-center shadow-2xl p-4 w-[100%] md:w-[70%] border-t-[30px] border-yellow-400 rounded-t-lg mb-8">
+        <p class="text-[60px]"><i class="bx bxs-user-plus"></i> </p>
+        <h1 class="text-2xl font-semibold bg-purple-600 text-white p-3 rounded">Register to <a href="" class="font-bold border-b-2 border-white-500"> KitabKinBech.<span class="text-sm text-yellow-400">com</span></a></h1>
+
+    <form action="" method="post" class="mt-8 w-[100%] md:w-[50%]">
+    <div class="form-input bg-gray-100 p-4 w-[100%] rounded-xl mb-4 relative">
+        <label for="name" class="absolute right-0 p-3 text-xl"><i class="bx bxs-pencil"></i></label>
+        <input type="text" name="name" id="name" placeholder="Name . . . . " class="w-[100%] text-xl bg-gray-100 border-none outline-none h-[40px] pr-5">
+    </div>
+    <div class="form-input bg-gray-100 p-4 w-[100%] rounded-xl mb-4 relative">
+        <label for="email" class="absolute right-0 p-3 text-xl"><i class="bx bxs-envelope"></i></label>
+        <input type="email" name="email" id="email" placeholder="Email . . . . " class="w-[100%] text-xl bg-gray-100 border-none outline-none h-[40px] pr-5">
+    </div>
+    <div class="form-input bg-gray-100 p-4 w-[100%] rounded-xl mb-4 relative">
+        <label for="phone" class="absolute right-0 p-3 text-xl"><i class="bx bxs-phone"></i></label>
+        <input type="number" name="phone" id="phone" placeholder="Phone . . . . " class="w-[100%] text-xl bg-gray-100 border-none outline-none h-[40px] pr-5">
+    </div>
+    <div class="form-input bg-gray-100 p-4 w-[100%] rounded-xl mb-4 relative">
+        <label for="address" class="absolute right-0 p-3 text-xl"><i class="bx bxs-map-pin"></i></label>
+        <input type="text" name="address" id="address" placeholder="Address . . . . " class="w-[100%] text-xl bg-gray-100 border-none outline-none h-[40px] pr-5">
+    </div>
+    <div class="form-input bg-gray-100 p-4 w-[100%] rounded-xl mb-4 relative">
+        <label for="password" class="absolute right-0 p-3 text-xl"><i class='bx bxs-lock'></i></label>
+        <input type="password" name="password" id="password" placeholder="Password . . . . " class="w-[100%] text-xl bg-gray-100 border-none outline-none h-[40px]  pr-5">
+    </div>
+    <div class="form-input bg-gray-100 p-4 w-[100%] rounded-xl mb-4 relative">
+        <label for="confirm_password" class="absolute right-0 p-3 text-xl"><i class='bx bxs-lock'></i></label>
+        <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password . . . . " class="w-[100%] text-xl bg-gray-100 border-none outline-none h-[40px]  pr-5">
+    </div>
+    <div class="form-input bg-gray-100 p-4 w-[100%] rounded-xl mb-4 relative">
+        <label for="profile" class="absolute right-0 p-3 text-xl"><i class='bx bxs-image'></i></label>
+        <input type="file" accept=".jpg, .jpeg, .png"  name="profile" id="profile" class="w-[100%] text-xl bg-gray-100 border-none outline-none h-[40px]  pr-5">
+        <label for="profile" class="text-blue-400">Upload your profile picutre. (.jpg, .png, .jpeg, .gif, .webp format less than 2mb.)</label>
+    </div>
+    <div class="flex gap-2">
+        <input type="checkbox" name="seller" id="seller" class="text-xl bg-gray-100 border-none outline-none  pr-5"> <p class="text-xl font-medium">Register as a seller.</p>
+    </div>
+    <button type="submit" class="w-[100%] mt-4 px-4 py-2 rounded bg-yellow-400 text-white text-xl font-semibold hover:bg-yellow-500">Register Now</button>
+</form>
+        <a class="mt-4" href="./login.html">Already Registered? <span class="underline text-indigo-700 font-semibold">Login Now</span></a>
+    </div>
+    
+</body>
+</html>
